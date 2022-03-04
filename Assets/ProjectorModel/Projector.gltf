@@ -1,0 +1,142 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "baker",
+            "rotation" : [
+                0.6532816290855408,
+                -0.27059802412986755,
+                0.2705981135368347,
+                0.6532813310623169
+            ],
+            "scale" : [
+                0.034724194556474686,
+                0.034724194556474686,
+                0.03472419083118439
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material.007",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh.005",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "HoloProjectorDiffuse",
+            "uri" : "HoloProjectorDiffuse.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1291,
+            "max" : [
+                4.583950519561768,
+                4.5839948654174805,
+                0.912384033203125
+            ],
+            "min" : [
+                -4.5840229988098145,
+                -4.583977699279785,
+                -0.2740516662597656
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1291,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1291,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 3594,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 15492,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15492,
+            "byteOffset" : 15492
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10328,
+            "byteOffset" : 30984
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7188,
+            "byteOffset" : 41312
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 48500,
+            "uri" : "Projector.bin"
+        }
+    ]
+}

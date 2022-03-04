@@ -1,0 +1,13 @@
+# Blender MTL File: 'housedeednft 04_5 exporting a card.blend'
+# Material Count: 1
+
+newmtl dial.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 0.012132 0.511548
+Ks 0.500000 0.500000 0.500000
+Ke 4.199998 0.000000 1.753727
+Ni 1.450000
+d 1.000000
+illum 2
+map_d C:\\Users\\Admin\\Desktop\\NFTDEEDImmersiveHatten\\dial.png
